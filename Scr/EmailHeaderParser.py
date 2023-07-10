@@ -69,7 +69,7 @@ title_label = tk.Label(window, text="Email Header Extractor", font=("Helvetica",
 title_label.pack(pady=20)
 
 # Load and display the logo
-logo_image = Image.open("/Users/milliemancilla/Desktop/ddh.png")  # Replace "logo.png" with the path to your logo image file
+logo_image = Image.open("ddh.png")  # Replace "logo.png" with the path to your logo image file
 logo_photo = ImageTk.PhotoImage(logo_image)
 logo_label = tk.Label(window, image=logo_photo)
 logo_label.pack(side=tk.RIGHT, padx=10)
